@@ -1,0 +1,30 @@
+{
+  "name": "employeereviewsystem",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abhinav9560/employeeReviewSystem.git"
+  },
+  "author": "abhinav",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abhinav9560/employeeReviewSystem/issues"
+  },
+  "homepage": "https://github.com/abhinav9560/employeeReviewSystem#readme",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "passport": "^0.6.0",
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "mongodb": "^6.1.0",
+    "mongoose": "^7.6.0",
+    "hbs": "^4.2.0"
+  }
+}
