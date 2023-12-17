@@ -3,9 +3,9 @@ const app = express();
 const hbs = require('hbs');
 const bodyParser = require('body-parser')
 const ConnectDB = require('./database/connectDb');
-const homeRoute = require('./router/homeRouter');
-const bugRoute = require('./router/createBugRouter');
-const projectRoute = require('./router/projectDetailRouter');
+const homeRoute = require('./routers/homeRouter');
+const passportJWT = require('./config/passport-jwt');
+
 
 app.use(bodyParser.json())
 app.use(express.static("public"))
